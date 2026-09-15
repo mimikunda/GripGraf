@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.mimikunda.benched"
+    namespace = "com.mimikunda.gripgraf"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.mimikunda.benched"
+        applicationId = "com.mimikunda.gripgraf"
         minSdk = 29
         targetSdk = 36
         versionCode = 1

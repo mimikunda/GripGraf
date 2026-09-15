@@ -1,4 +1,4 @@
-package com.mimikunda.benched
+package com.mimikunda.gripgraf
 
 import org.junit.Test
 

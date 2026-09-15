@@ -1,4 +1,4 @@
-package com.mimikunda.benched.ui.navigation
+package com.mimikunda.gripgraf.ui.navigation
 
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.foundation.layout.fillMaxSize
@@ -26,9 +26,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.mimikunda.benched.ui.screens.GraphScreen
-import com.mimikunda.benched.ui.screens.HomeScreen
-import com.mimikunda.benched.ui.screens.TableScreen
+import com.mimikunda.gripgraf.ui.screens.GraphScreen
+import com.mimikunda.gripgraf.ui.screens.HomeScreen
+import com.mimikunda.gripgraf.ui.screens.TableScreen
 import kotlinx.serialization.Serializable
 
 @Serializable object HomeRoute

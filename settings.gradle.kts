@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Benched"
+rootProject.name = "GripGraf"
 include(":app")
  

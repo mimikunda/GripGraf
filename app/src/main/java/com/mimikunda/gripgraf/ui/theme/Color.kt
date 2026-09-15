@@ -1,4 +1,4 @@
-package com.mimikunda.benched.ui.theme
+package com.mimikunda.gripgraf.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,26 +1,18 @@
-package com.mimikunda.benched
+package com.mimikunda.gripgraf
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.mimikunda.benched.ui.navigation.MainNavigation
-import com.mimikunda.benched.ui.screens.HomeScreen
-import com.mimikunda.benched.ui.theme.BenchedTheme
+import com.mimikunda.gripgraf.ui.navigation.MainNavigation
+import com.mimikunda.gripgraf.ui.theme.GripGrafTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            BenchedTheme {
+            GripGrafTheme {
                 //Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                 MainNavigation(
                   //  modifier = Modifier.padding(innerPadding)
